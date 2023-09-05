@@ -1,8 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Home from './routes/home'
-import Aparelhos from './routes/Aparelhos'
-import VisualizarAparelho from './routes/VisualizarAparelho'
+import { Outlet } from 'react-router-dom'
 
 
 function App() {
@@ -10,10 +8,7 @@ function App() {
 
   return (
     <>
-      <div>
-        <h1>eewqq</h1>
-      </div>
-        
+     <Outlet />
     </>
   )
 }
