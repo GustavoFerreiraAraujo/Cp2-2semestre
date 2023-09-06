@@ -1,0 +1,34 @@
+/* Promocao.css */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Estilo para as células com classe "cell" */
+  .cell {
+    width: 50%; /* Defina o tamanho desejado para as células (50% neste exemplo) */
+    padding: 10px;
+    text-align: center; /* Centralize o conteúdo nas células */
+  }
+  
+  .cell a {
+    text-decoration: none;
+  }
+  
+  /* Estilo para a imagem dentro dos links */
+  .cell a img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  

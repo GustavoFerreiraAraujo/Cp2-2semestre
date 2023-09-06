@@ -1,5 +1,32 @@
-#home{
-    font-size: 40px;
-    color: #fff;
-    
-}
+header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 0; 
+  }
+  
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  
+  li {
+    display: inline; 
+    margin-right: 20px; 
+  }
+  
+  
+  a {
+    text-decoration: none; 
+    color: #fff; 
+  }
+  
+  a:hover {
+    text-decoration: underline; 
+  }
+  
+  #Home a {
+    font-weight: bold; 
+  }
+  

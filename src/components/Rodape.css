@@ -1,5 +1,30 @@
-* {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
+.Rodape {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0; 
+    text-align: center; 
+  }
+  
+
+  .Rodape ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+
+  .Rodape li {
+    display: inline; 
+    margin-right: 20px; 
+  }
+  
+
+  .Rodape a {
+    text-decoration: none; 
+    color: #fff; 
+  }
+  
+  
+  .Rodape a:hover {
+    text-decoration: underline; 
+  }
+  

@@ -1,6 +1,7 @@
 import React from "react";
 import { ListaDeAparelhos } from "../components/ListaDeAparelhos";
 import { Link } from "react-router-dom";
+import "./aparelho.css";
 
 export default function Aparelhos() {
   return (

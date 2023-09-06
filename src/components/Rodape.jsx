@@ -1,8 +1,9 @@
 import React from "react";
+import "./Rodape.css";
 
 export default function Rodape() {
   return (
-    <main>
+    <footer className="Rodape">
       <ul>
         <li>
           <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"> Facebook </a>
@@ -14,6 +15,7 @@ export default function Rodape() {
             <a href="https://github.com/" target="_blank" rel="noopener noreferrer"> Github </a>
         </li>
       </ul>
-    </main>
+    </footer>
   );
 }
+

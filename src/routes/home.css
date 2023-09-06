@@ -1,0 +1,36 @@
+.cabecalho {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
