@@ -1,14 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './index.css'
+
 
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Home from './routes/home';
+import Home from './routes/Home';
 import Aparelhos from './routes/Aparelhos';
 import VisualizarAparelho from './routes/VisualizarAparelho';
 import Sobre from './routes/Sobre.jsx';
+import Promocao from './routes/Promocao.jsx';
 import Erro404 from './routes/Erro404';
 
 
@@ -20,7 +21,7 @@ const routes = createBrowserRouter([
      { path: '/aparelhos', element: <Aparelhos /> },
      { path: '/aparelhos/:id', element: <VisualizarAparelho /> },
      {path:'/sobre', element:<Sobre/>},
-     {path: '/erro404', element:<Erro404/>}
+      {path:'/promocao', element:<Promocao/>},
 
     ]  
   },
