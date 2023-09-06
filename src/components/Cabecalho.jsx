@@ -13,7 +13,6 @@ export default function Cabecalho(){
                      <li><Link to='/e'> Computadores </Link></li>
            
                      <li><Link to='/sobre'> Sobre </Link></li>
-                     <li><Link to='/e'> Contato </Link></li>
 
                 </ul>
              </header>

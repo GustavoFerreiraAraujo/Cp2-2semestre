@@ -4,7 +4,7 @@ import "./Promocao.css";
 
 export default function Promocao() {
   return (
-    <main>
+    
       <table>
         <tr>
           <td className="cell">
@@ -15,6 +15,6 @@ export default function Promocao() {
           </td>
         </tr>
       </table>
-    </main>
+   
   );
 }
