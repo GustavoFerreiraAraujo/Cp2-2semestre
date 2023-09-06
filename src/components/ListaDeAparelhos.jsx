@@ -42,5 +42,5 @@ export const ListaDeAparelhos = [
         preco: 4000,
         imagem: "/src/assets/img/galaxytabs7.jpg",
         descricao:"O Samsung Galaxy Tab S7+ é um tablet poderoso feito pela Samsung. Ele tem uma tela grande e bonita que mostra cores vivas. O tablet é rápido e pode ser usado para muitas coisas, como navegar na internet, jogar jogos e trabalhar. Você pode até mesmo usar uma caneta especial chamada S Pen para desenhar ou escrever na tela. O Galaxy Tab S7+ vem com várias opções de armazenamento para guardar aplicativos e arquivos. Alguns modelos também têm conectividade 5G para internet rápida. É uma ótima escolha para quem busca um tablet Android de alto desempenho."
-    },
+    }
 ]

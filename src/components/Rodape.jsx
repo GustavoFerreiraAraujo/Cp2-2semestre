@@ -3,7 +3,8 @@ import "./Rodape.css";
 
 export default function Rodape() {
   return (
-    <footer className="Rodape">
+   
+   <footer className="Rodape">
       <ul>
         <li>
           <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"> Facebook </a>

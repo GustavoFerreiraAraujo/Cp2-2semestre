@@ -1,30 +1,27 @@
 import { useParams } from "react-router-dom";
 import { ListaDeAparelhos } from "../components/ListaDeAparelhos";
 
-export default function VisualizarAparelho() {
-  useEffect(() => {
-    document.title = "Comprar";
-  }, []);
+export default function VizualizarAparelho(){
+  document.title = "VizuAparelho";
 
-  const { id } = useParams();
+  const {id} = useParams();
 
-  const aparelho = ListaDeAparelhos.find((aparelho) => aparelho.id === parseInt(id));
-
-  if (!aparelho) {
-    return <div>Aparelho não encontrado.</div>;
-  }
-
+  const aparelhos = ListaDeAparelhos.filter((aparelho)=>{
+      if(aparelho.id === parseInt(id)) {
+          return aparelho;
+      }
+  });
   return (
     <div>
       <h1>Detalhes do Aparelho</h1>
       <div>
-        <img src={aparelho.imagem} alt="" />
+        <img src={aparelhos.imagem} alt="" />
       </div>
       <div>
-        <h3>Nome do Aparelho: {aparelho.nome}</h3>
-        <h3>Preço: {aparelho.preco}</h3>
-        <p>Marca: {aparelho.marca}</p>
-        <p>Descrição: {aparelho.descricao}</p>
+        <h3>Nome do Aparelho: {aparelhos[0].nome}</h3>
+        <h3>Preço: {aparelhos[0].preco}</h3>
+        <p>Marca: {aparelhos[0].marca}</p>
+        <p>Descrição: {aparelhos[0].descricao}</p>
       </div>
     </div>
   );

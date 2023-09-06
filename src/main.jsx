@@ -6,12 +6,12 @@ import App from './App.jsx'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import Home from './routes/Home';
-import Aparelhos from './routes/Aparelhos';
+import Home from './routes/Home/Home.jsx';
 import VisualizarAparelho from './routes/VisualizarAparelho';
-import Sobre from './routes/Sobre.jsx';
-import Promocao from './routes/Promocao.jsx';
-import Erro404 from './routes/Erro404';
+import Sobre from './routes/sobre/Sobre.jsx';
+import Promocao from './routes/Promocao/Promocao.jsx';
+import Erro404 from './routes/erro404/Erro404';
+import Aparelhos from './routes/Aparelho/Aparelhos.jsx';
 
 
 const routes = createBrowserRouter([
@@ -20,7 +20,7 @@ const routes = createBrowserRouter([
         children: [
      { path: '/', element: <Home /> },
      { path: '/aparelhos', element: <Aparelhos /> },
-     { path: '/aparelhos/comprar:id', element: <VisualizarAparelho /> },
+     { path: '/aparelhos/comprar/:id', element: <VisualizarAparelho /> },
      {path:'/sobre', element:<Sobre/>},
      {path:'/promocao', element:<Promocao/>},
 

@@ -10,11 +10,8 @@ export default function Home(){
             <h1>Loja rm550181</h1>
             <h2>Loja de tecnologia</h2>
              
-             <ul>
-                <li className='btn'><Link to='/aparelhos'> Aparelhos</Link></li>
-                <li className='btn'><Link to='/sobre' >  Sobre</Link></li>
-            </ul>
-            <img src="/src/assets/img/celulares.jpg" alt="celulares" />
+           
+            <Link to='/aparelhos'><img src="/src/assets/img/celulares.jpg" alt="celulares" /></Link>
         </div>         
         
     )
