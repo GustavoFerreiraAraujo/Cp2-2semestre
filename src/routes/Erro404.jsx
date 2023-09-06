@@ -1,7 +1,10 @@
 export default function Erro404(){
     return(
         <main>
-        <h1>Erro 404</h1>
+        <div>
+            <img src="/src/assets/img/498970.png" alt="Imagem ilustrativa de manutenção."/>
+        </div>
+        <p>Essa opcao esta em manutencao.</p>
         </main>
     )
 }
