@@ -5,6 +5,7 @@ import App from './App.jsx'
 
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
 import Home from './routes/Home';
 import Aparelhos from './routes/Aparelhos';
 import VisualizarAparelho from './routes/VisualizarAparelho';
@@ -19,9 +20,9 @@ const routes = createBrowserRouter([
         children: [
      { path: '/', element: <Home /> },
      { path: '/aparelhos', element: <Aparelhos /> },
-     { path: '/aparelhos/:id', element: <VisualizarAparelho /> },
+     { path: '/aparelhos/comprar:id', element: <VisualizarAparelho /> },
      {path:'/sobre', element:<Sobre/>},
-      {path:'/promocao', element:<Promocao/>},
+     {path:'/promocao', element:<Promocao/>},
 
     ]  
   },
