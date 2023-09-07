@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Promocao.css";
+import "./promocao.css";
 
 export default function Promocao() {
   return (

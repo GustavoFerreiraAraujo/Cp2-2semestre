@@ -10,7 +10,7 @@ import Home from './routes/Home/Home.jsx';
 import VisualizarAparelho from './routes/VisualizarAparelho';
 import Sobre from './routes/sobre/Sobre.jsx';
 import Promocao from './routes/Promocao/Promocao.jsx';
-import Erro404 from './routes/erro404/Erro404';
+import Erro404 from './routes/Erro404/Erro404';
 import Aparelhos from './routes/Aparelho/Aparelhos.jsx';
 
 

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import './home.css'
+import img from '../../assets/img/celulares.jpg'
 
 export default function Home(){
     return(
@@ -11,7 +12,7 @@ export default function Home(){
             <h2>Loja de tecnologia</h2>
              
            
-            <Link to='/aparelhos'><img src="/src/assets/img/celulares.jpg" alt="celulares" /></Link>
+            <Link to='/aparelhos'><img src={img} alt="celulares" /></Link>
         </div>         
         
     )

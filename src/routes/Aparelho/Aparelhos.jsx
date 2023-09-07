@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { ListaDeAparelhos } from "../../components/ListaDeAparelhos";
-import "./aparelho.css";
+import "./Aparelho.css";
 
 export default function Aparelhos() {
   return (
