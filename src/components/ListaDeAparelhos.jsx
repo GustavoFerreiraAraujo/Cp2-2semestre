@@ -1,8 +1,8 @@
 import Iphone13 from "/src/assets/img/Iphone13.jpg";
-import Mi11Ultra from "/src/assets/img/mi11ultra.png";
-import GalaxyS21Ultra from "/src/assets/img/galaxys21ultra.png";
-import IpadPro from "/src/assets/img/ipadpro.png";
-import GalaxyTabS7 from "/src/assets/img/galaxytabs7.jpg";
+import Mi11Ultra from "/src/assets/img/Mi11ultra.png";
+import GalaxyS21Ultra from "/src/assets/img/Galaxys21ultra.png";
+import IpadPro from "/src/assets/img/iPadPro.png";
+import GalaxyTabS7 from "/src/assets/img/Galaxytabs7.jpg";
 
 export const ListaDeAparelhos = [
     {
